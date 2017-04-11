@@ -1,0 +1,29 @@
+Estimated release date: July of 2011 or later
+
+This quarter:
+* Finish code overhaul, get the entire project building again sans warnings
+* Finish work on the new CPU core
+* Overhaul the mapper architechture, and add support for FCE Ultra mappers
+* Re-implement emulation features that were removed, such as MMC5 ExRAM, and mapper hacks
+* Finish the new video subsystem, particulary the OpenGL engine
+* Implement a new GUI, in both software and OpenGL compositing versions
+* Better multi-language support using TrueType fonts
+* Implement *working* support for network play (NetPlay) over LAN and Internet
+* At least several weeks of additional cleanups and bug fixing
+
+Next quarter:
+  Documentation:
+    * Write an official, updated FAQ page for the website
+    * Start work on an official Handbook to be distributed with the emulator
+  Game support:
+    * Improve emulation accuracy and compatibility
+    * Individually test problematic games and resolve any issues
+    * Better support for the Famicom, Playchoice 10, and VS UniSystem
+  Modernization:
+    * Overhaul long-neglected parts of the source code
+    * Remove the need for Allegro by writing our own abstraction library
+    * Add support for mobile platforms, especially iPhone
+
+Ongoing efforts:
+    * Better support for low resolutions (320x240 and under)
+    * Support slower computers using performance profiles for emulation
